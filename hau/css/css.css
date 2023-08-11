@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+.logo img{
+	max-width: 70px;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	padding: 0 20px;
+}
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+nav li a:hover{
+	color: firebrick;
+	text-decoration: underline;
+}
+.banner{
+	background: url("../img/canada banner.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 210px 0;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+.banner p{
+	margin: 4px 0 30px;
+}
+.btn{
+	background-color: darkred;
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+.banner2{
+	background-color: white;
+	padding: 50px 50px 15px 50px;
+	text-align: center;
+	color: dimgray;
+	font-size: 18px;
+}
+.box{
+	height: 270px;
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.box img{
+	width: 100%;
+}
+.scale img{
+	transition-property: all;
+	transition-duration: 2s;
+	transition-timing-function: ease;
+}
+.scale img:hover{
+	transform: scale(1.5)
+}
+.rotate img{
+	transition: transform 2s ease;
+}
+.rotate img:hover{
+	transform: rotate(30deg);
+}
+
+
+.banner3{
+	background-color: white;
+	padding: 50px 50px 15px 50px;
+	text-align:left;
+	color: dimgray;
+	font-size: 18px;
+}
+
